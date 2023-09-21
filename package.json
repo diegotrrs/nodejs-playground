@@ -6,15 +6,25 @@
   "scripts": {
     "build": "tsc",
     "start": "node ./dist/index.js",
+    "dev": "npx nodemon",
     "lint": "eslint ./src",
+    "loadtest": "npx loadtest -n 1200 -c 400 -k http://localhost:3000/heavy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/express": "^4.17.17",
     "@typescript-eslint/eslint-plugin": "^6.7.2",
     "@typescript-eslint/parser": "^6.7.2",
     "eslint": "^8.49.0",
+    "loadtest": "^8.0.2",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "enquirer": "^2.4.1",
+    "express": "^4.18.2"
   }
 }

@@ -1,4 +1,10 @@
-# event-loop
+# TODO
+[x] Event loop
+[] Cluster Module
+[] Web socket
+[] Child Processes
+[] Performance Tuning & Profiling
+# Links
 https://www.builder.io/blog/visual-guide-to-nodejs-event-loop
 
 
