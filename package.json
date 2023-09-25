@@ -2,13 +2,13 @@
   "name": "event-loop",
   "version": "1.0.0",
   "description": "An example of a basic event loop",
-  "main": "index.js",
+  "main": "index.js",  
   "scripts": {
     "build": "tsc",
     "start": "node ./dist/index.js",
     "dev": "npx nodemon",
     "lint": "eslint ./src",
-    "loadtest": "npx loadtest -n 1200 -c 400 -k http://localhost:3000/heavy",
+    "loadtest": "npx loadtest -n 1000 -c 100 -k http://localhost:3000/heavy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "enquirer": "^2.4.1",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "lodash": "^4.17.21"
   }
 }

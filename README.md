@@ -1,9 +1,12 @@
 # TODO
 [x] Event loop
-[] Cluster Module
+[x] Cluster Module (see inner notes).
+[] Workers
+[] Child processes
+[] Child processes vs cluster module vs workers
 [] Web socket
-[] Child Processes
 [] Performance Tuning & Profiling
+[] How to improve a NodeJS app
 # Links
 https://www.builder.io/blog/visual-guide-to-nodejs-event-loop
 

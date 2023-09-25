@@ -3,7 +3,9 @@ type TimestampedValue = {
   value: any;
 };
 
-class LWWSet {
+
+
+class LWWSetX {
   private set: Map<any, TimestampedValue> = new Map();
 
   add(element: any, timestamp: number): void {
