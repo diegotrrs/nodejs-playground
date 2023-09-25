@@ -6,6 +6,7 @@ import queue from './dataStructures/queue'
 import graph from './dataStructures/graph'
 import test from './goodNotesExample'
 import workerThreads from './workerThreads'
+import fourWorkerThreads from './workerThreads/four-workers-index'
 
 
 //nextTickAndPromiseQueues.experiment3()
@@ -14,4 +15,5 @@ import workerThreads from './workerThreads'
 //test()
 //clusterModuleExample()
 //clusterModuleExamplePrimary()
-workerThreads
+//workerThreads
+fourWorkerThreads
