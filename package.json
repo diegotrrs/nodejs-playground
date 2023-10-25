@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node ./dist/index.js",
+    "start": "node ./dist/src/index.js",
     "dev": "npx nodemon",
     "lint": "eslint ./src",
     "loadtest": "npx loadtest -n 1000 -c 100 -k http://localhost:3000/heavy",

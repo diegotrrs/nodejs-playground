@@ -16,7 +16,7 @@ import treeNew from './dataStructuresNew/tree'
 import stackNew from './dataStructuresNew/stack'
 import fullJustify from './fullJustify'
 import leetCodePractice from './leetcodePractice'
-
+import reduceFromScratch from './reduceFromScratch'
 
 
 //nextTickAndPromiseQueues.experiment3()
@@ -34,4 +34,5 @@ import leetCodePractice from './leetcodePractice'
 //treeNew()
 
 
-leetCodePractice()
+//leetCodePractice()
+reduceFromScratch()
