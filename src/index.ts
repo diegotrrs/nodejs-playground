@@ -6,7 +6,17 @@ import queue from './dataStructures/queue'
 import graph from './dataStructures/graph'
 import test from './goodNotesExample'
 import workerThreads from './workerThreads'
-import fourWorkerThreads from './workerThreads/four-workers-index'
+//import fourWorkerThreads from './workerThreads/four-workers-index'
+import distances from './distances'
+import reversingString from './reversingString'
+import tree from './dataStructures/tree'
+import binaryTree from './dataStructures/binaryTree'
+//import queueNew from './dataStructuresNew/queue'
+import treeNew from './dataStructuresNew/tree'
+import stackNew from './dataStructuresNew/stack'
+import fullJustify from './fullJustify'
+import leetCodePractice from './leetcodePractice'
+
 
 
 //nextTickAndPromiseQueues.experiment3()
@@ -16,4 +26,12 @@ import fourWorkerThreads from './workerThreads/four-workers-index'
 //clusterModuleExample()
 //clusterModuleExamplePrimary()
 //workerThreads
-fourWorkerThreads
+//fourWorkerThreads
+//distances()
+//reversingString()
+//tree()
+//queueNew()
+//treeNew()
+
+
+leetCodePractice()
